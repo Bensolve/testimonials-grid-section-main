@@ -52,7 +52,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-article {
+.testimonial {
 
     border-radius: 1rem;
     width: 100%;
@@ -62,27 +62,27 @@ article {
 
 }
 
-.article-daniel {
+.testimonial--purple {
     background: var(--purple-500);
     color: var(--white);
 }
 
-.article-jonathan {
+.testimonial--dark-grey {
     background: var(--grey-500);
     color: var(--white);
 }
 
-.article-jeanette {
+.testimonial--light {
     background: var(--white);
     color: var(--dark-blue);
 }
 
-.article-patrick {
+.testimonial--dark-blue {
     background: var(--dark-blue);
     color: var(--white);
 }
 
-.article-kira {
+.testimonial--white {
     background: var(--white);
     color: var(--dark-blue);
 }
@@ -96,7 +96,7 @@ header {
 }
 
 .profile-img {
-    width: 48px;
+    width: 3rem;
     height: 48px;
     object-fit: cover;
     border-radius: 50%;
@@ -157,21 +157,21 @@ blockquote {
         
        
     } */
-    article {
+    .testimonial {
         margin-bottom: 0;
 
     }
 
-    .article-daniel {
+    .testimonial--purple {
         grid-column: 1/3;
     }
 
 
-    .article-patrick {
+    .testimonial--dark-blue {
         grid-column: 2/4;
     }
 
-    .article-kira blockquote {
+    .testimonial--white blockquote {
         padding-bottom: 2rem;
     }
 
